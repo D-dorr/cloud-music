@@ -1,0 +1,38 @@
+html{font-size: 100px;}
+body{font-size: .16rem;}
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+.clearfix:after{content: "";display: table;clear: both;}
+.top{position: fixed;z-index: 999;top: 0;background: #fff;width: 100%;}
+.top img{width: 100%;height: .5rem;}
+
+.top li{float: left;width: 25%;margin: .07rem 0;}
+.top li a{color: #747474;display: block;border-right:1px solid #999999;text-align: center;height: .2rem;line-height: .2rem;font-size: .14rem;}
+.top li .n{border-right: none;}
+#tabContainer{margin-top: .9rem;padding-bottom: .5rem;}
+.swiper-container{width: 100%;height: 1.8rem;}
+.swiper-container-horizontal>.swiper-pagination-bullets{bottom: 10px;left: 0;bottom: .3rem; width: 100%;}
+.lunbo{width: 100%;}
+.title p{font-size: .16rem;display:block;width: 2rem;height: .30rem;line-height: .3rem;}
+.title p span{display: block;width: 4px;height: .3rem;border-radius: 3px;background: #c81623;float: left;margin: 0 .1rem;}
+.songlist{width: 100%;}
+.songlist .item{float: left;width: 1.1rem;margin-left: .11rem;margin-top: .11rem;}
+.songlist .item a{display: block;position: relative;font-size: .14rem;color: #747474}
+.songlist .item a span{position: absolute;left: 0;top: 0;display: block;height: .2rem;width: 100%;text-align: right;background: rgba(255,255,255,.3);color: #000000;}
+.songlist .item a img{width: 1.1rem;}
+.sheet{width: 100%;height: .5rem;background: #d43c33;line-height: .5rem;color: #fff;position: fixed;top: 0;z-index: 999;}
+.sheet .back{font-size: .2rem;}
+.sheet .txt{padding-left: 1.5rem;}
+#songlist{list-style-type:demical;width:200px;width: 92%;padding: .5rem 0 .5rem .3rem;}  
+#songlist li{ list-style-position:outside;height: .6rem;border-bottom: 1px solid #C4C4C4;position: relative;}  
+#songlist li p{line-height: .3rem;}
+#songlist li .artist{font-size: .14rem;color: #999;}
+#songlist li span{width: .25rem;height: .25rem;display: block; position: absolute;background: url(../images/play2.png) no-repeat center;right: .2rem;top: .18rem;background-size: cover;}
+
+#global{position: fixed;z-index: 999;bottom: 0;width: 100%;background: #f6f6f6;height: .5rem;display: none;}
+#global p{line-height: .2rem;padding-left: .1rem;height: .2rem;}
+#global .artist{font-size: .14rem;}
+#btn{position: absolute;right: .2rem;top: .1rem;width: .25rem;height: .25rem;background: url(../images/play2.png) no-repeat center;background-size: cover;}
+#btn.play{background:url(../images/pause50.png) no-repeat center;background-size: cover;}
